@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .align-label {
+            width: 110px;
+            display: inline-block;
+            text-align: right;
+            padding: 5px;
+        }
+        .long-text {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 435px;">
+        <form method="GET">
+            <label for="userName" class="align-label">User Name:</label>
+            <input type="text" id="userName" name="userName" required maxlength="10"> <br><br>
+    
+
+            <label for="firstName" class="align-label" >First Name:</label>
+            <input type="text" id="firstName" id="firstName" class="long-text" maxlength="40" required> <br>
+
+            <label for="lastName" class="align-label">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" class="long-text" maxlength="40" required> <br>
+
+            <label for="numAge" class="align-label">Age</label>
+            <input type="number" id="numAge" name="numAge" min=10 max=70> <br>
+
+            <label for="email" class="align-label">Email</label>
+            <input style="border: 0; border-bottom: 1px solid;"; type="email" id="email" class="long-text" required placeholder="Enter Email Here" > <br> <br>
+    
+            <input type="submit" style="float: right;">
+        </form>
+    </div>
+    
+
+</body>
+</html>

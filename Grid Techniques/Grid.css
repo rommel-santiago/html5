@@ -1,0 +1,12 @@
+section {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    row-gap: 50px;
+    column-gap: 20px;
+    justify-content: end;
+}
+
+.movie-poster {
+    width: 100%;
+    box-sizing: border-box;
+}

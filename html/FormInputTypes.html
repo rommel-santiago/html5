@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .align-label {
+            width: 110px;
+            display: inline-block;
+            text-align: right;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label class="align-label">One Name</label>
+        <input type="text" id="oneName"> <br>
+
+        <label class="align-label" for="twoName">two Name Name</label>
+        <input type="text" id="twoName">
+    
+        <br>
+        <br>
+
+        <input type="text" name="username"> <br>
+        <input type="date" name="firstDate" max="1990-01-01" min="1989-01-01"> <br>
+        <input type="text" name="attribSample" placeholder="attribute Sample"> <br>
+        <input type="text" name="focused" autofocus> <br>
+
+        email
+        <input type="email" name="email" required> <br>
+        required text
+        <input type="text" name="requiredText" required> <br>
+        
+
+        <select name="selectName" id="selectId" multiple>
+            <option value="blah1">blah name 1</option>
+            <option value="blah2">blah name 2</option>
+            <option value="blah3">blah name 3</option>
+            <option value="blah4">blah name 4</option>
+        </select>  <br>
+
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>

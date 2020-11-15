@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div-blocks {
+            background-color: chocolate; 
+            text-align: center; 
+            padding: 32px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border: 50px;
+            /* flex-grow: 1; */
+            flex-basis: 200px;
+        }
+        .div-blocks:nth-child(1) {
+            background-color: blueviolet;
+            flex-grow: 0;
+        }
+
+        .div-blocks:nth-child(even) {
+            background-color: red;
+            /* align-self: center */
+        }
+
+
+
+        .div-container {
+            width: 100vw;
+            background-color: yellowgreen;
+            padding: 32px;
+            display: flex; 
+            /* flex-direction: column; */
+            /* flex-wrap: wrap; */
+            /* align-items: flex-start; */
+            /* align-content: flex-start; */
+           
+
+
+
+        }
+    </style>
+</head>
+<body style="margin: 0;">
+    <div class="div-container">
+        <div class="div-blocks">
+            div-1
+        </div>
+        <div class="div-blocks">
+            div-2
+        </div>
+        <div class="div-blocks">
+            div-3
+        </div>
+        <div class="div-blocks">
+            div-4
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+#container {
+    display: grid;
+    grid-template-areas: 
+        'header header header header header header'
+        'menu   main   main   main   main   right'
+        'footer footer footer footer footer footer';
+
+}
+#header {
+    height: 30px;
+    background-color: chartreuse;
+    grid-area: header;
+}
+#left-menu {
+    height: 30px;
+    background-color: chocolate;
+    grid-area: menu;
+}
+#middle-main {
+    height: 30px;
+    background-color: cornflowerblue;
+    grid-area: main;
+    height: 500px;
+}
+#right-details {
+    height: 30px;
+    background-color: brown;
+    grid-area: right;
+}
+#bottom-footer {
+    height: 30px;
+    background-color: crimson;
+    grid-area: footer;
+}

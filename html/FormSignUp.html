@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #signup-form {
+            background-color: aqua;
+            width: 330px;
+            padding: 20px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .name-class {
+            padding-bottom: 15px;
+        }
+        .input-label {
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Signup</h2>
+    <form id="signup-form" method="GET">
+        
+        <div class="name-class">
+            Full name: <br>
+            <input class="input-label" type="text" name="fullName"> <br>
+        </div>
+        <div>
+            Email: <br>
+            <input class="input-label" ttype="text" name="email"> <br>
+            Password: <br> 
+            <input class="input-label" ttype="password" name="password"> <br>
+            Confirm Password: <br>
+            <input class="input-label" ttype="password" name="confirmPassword"> <br> <br>
+        </div>
+        <div>
+            Gender: <br>
+            <input type="radio" name="male" value="male">Male</input>
+            <input type="radio" name="female" value="female">Female</input>
+            <input type="radio" name="other" value="other">Other</input>  
+            <br><br>  
+        </div>
+            Security Question: <br>
+            <select name="sec-question">
+                <option value="pet-name">What was your pet's first name ?</option>
+                <option value="first-job">What was your first job ?</option>
+                <option value="nickname">What was is your nickname?</option>
+            </select> <br>
+            <textarea name="answer" cols="50" rows="10"></textarea>
+        <div>
+            <input type="checkbox" name="terms-conditions" value="accept">I agree to accept the terms and condition</input>
+        </div>
+
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+</html>

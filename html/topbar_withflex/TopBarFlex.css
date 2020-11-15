@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+body {
+    margin: 0;
+    font: normal 14px Verdana, Arial, sans-serif;
+}
+#top-bar {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;  /* this causes the two items to separate */
+}
+p {
+    margin: 0;
+}
+p.logo {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: x-large;
+    color: rgb(36, 71, 167);
+    letter-spacing: -1px;
+}
+
+p.left-menu-item {
+    font: normal;
+    padding: 10px;
+}
+
+#leftside-menu {
+    display: flex;
+    align-items: center;
+}
+
+#rightside-menu {
+    display: flex;
+    align-items: center;
+}
+
+
+#search-text { 
+    border-radius: 50px;
+    border: 1px solid rgb(155, 154, 154);
+    font-size: medium;
+    width: 200px;
+    padding: 5px 25px 5px 15px;
+    outline: none;
+}
+
+#search-icon {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    right: 25px;
+    top: 3px;
+}
+
+
+
+section {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-card {
+    width: 30%;  /* 30% of the container */
+    min-width: 200px; /* min size when browser is minimize */
+    height: auto;
+    vertical-align: top;
+    margin: 8px;
+    background-color: chartreuse;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #aaaaaa;
+    cursor: pointer;
+}
+
+.blog-image {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.blog-heading {
+    margin: 0;
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+

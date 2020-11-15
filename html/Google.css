@@ -1,0 +1,117 @@
+*{
+    font-family: "Arial", Times, serif;
+}
+
+header {
+    margin: 15px 20px;
+}
+
+#nav-right {
+    float: right;
+}
+.menu-item {
+    float: left;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.562);
+    padding-right: 10px;
+}
+.menu-item:hover {
+    text-decoration: underline;
+}
+#icon-apps {
+    position: relative;
+    top: -5px;
+}
+
+#icon-apps:hover
+#apptions {
+    display: block;
+}
+
+
+section, #divButtons, #divText {
+    text-align: center;
+}
+
+#share-icon {
+    display: block;
+    margin-top: 1px;
+    margin-left: 1030px;
+}
+
+#div-search {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+}
+
+#div-search > #search-text {
+    width: 500px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: large;
+    outline: none;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.384);
+}
+
+#div-search > #leftIcon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+#div-search > #rightIcon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.button-class {
+    width: 132px;
+    height: 42px;
+    background-color: whitesmoke;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: grey;
+    font-weight: lighter;
+}
+.button-class:hover {
+    box-shadow:10px 10px 10px chocolate;
+}
+
+p {
+    color: rgb(39, 76, 180);
+    font-size: small;
+}
+
+#apptions {
+    border: 1px solid rgb(168, 166, 166);
+    width: 260px;
+    height: 400px;
+    position: absolute;
+    right: 22px;
+    padding: 10px;
+    display: none;
+}
+
+.appIcons {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.appIcons:hover {
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 10px;
+}
+
+#dropdown-wrapper {
+    display: inline-block;
+}
+
+#dropdown-wrapper:hover
+#apptions {
+    display: block;
+}

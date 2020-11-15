@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #div-maingrid {
+            display: grid;
+            grid-template-columns:  1fr 2fr 2fr;
+            grid-template-areas: 
+                "a a a"
+                "b c d";
+        }
+
+        #div-maingrid nav {
+            grid-area: a;
+            background-color: red;
+
+        }
+
+        #div-maingrid section:nth-of-type(1) {
+            grid-area: b;
+            background-color: blueviolet;
+        }
+
+        #div-maingrid section:nth-of-type(2) {
+            grid-area: c;
+            background-color: purple;
+        }
+        #div-maingrid section:nth-of-type(3) {
+            grid-area: d;
+            background-color: chocolate;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div-maingrid">
+        <nav>
+            <span>navigator</span>
+        </nav>
+
+        <section>
+            <p>left</p>
+        </section>
+        <section>
+            <p>middle middle</p>
+        </section>
+        <section>
+            <p>right right</p>
+        </section>
+    </div>
+</body>
+</html>

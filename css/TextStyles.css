@@ -1,0 +1,78 @@
+h1 {
+    color: blue;    
+    text-align: center;
+    text-decoration: line-through;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-shadow: 4px 4px 2px gray;
+    
+
+}
+.p1 {
+    color: red;
+    text-align: justify;
+    letter-spacing: 5px;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px gray;
+    padding: 5px 5px;
+}
+.p2 {
+    color: green;
+    word-spacing: 10px;
+}
+
+.p4 {
+    color: pink;
+    line-height: 40px;
+    font-family: 'Comic Neue', cursive;
+}
+
+#para-2 {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: saddlebrown;
+    padding: 20px;
+    padding-right: 50px;
+} 
+    /* or short cut
+    
+    border: 5px dotted saddlebrown
+    
+    */
+
+#para-3 {
+    border: 5px solid blue;
+    border-right: 8px dotted pink;
+    border-radius: 10px;
+
+}
+
+#login-button {
+    background-color: lightblue;
+    padding: 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+#login-button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#disabled-button{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#facebook-button {
+    padding: 8px 16px;
+    font-size: 15px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(0, 110, 255);
+    color: whitesmoke;
+    
+}
